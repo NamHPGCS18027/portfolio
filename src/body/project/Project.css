@@ -1,0 +1,28 @@
+.containerproject{
+    background-color: rgba(0, 0, 0, 0.805);
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.titleproject{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.projectcard{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.805);
+    padding: 20px;
+    border: 1px solid white;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 400;
+}

@@ -1,0 +1,91 @@
+.backgroundedu{
+    background-color: rgba(0, 0, 0, 0.805);
+    width: auto;
+    margin-top: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.educontainer{
+    display: flex;
+    padding: 10px;
+}
+
+.value1edu{
+    background-color: black;
+    float: left;
+    width: 30%;
+}
+.value2edu{
+    background-color: rgb(1, 55, 69);
+    float: right;
+    width: 70%;
+    color: aliceblue;
+    text-align: justify;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cardeducontainer{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid white ;
+}
+
+.imgedu{
+    width: 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.cardtaitle{
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 600;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.btnview{
+    background-color: rgb(0, 221, 255);
+    width: 100px;
+    height: auto;
+    text-align: center;
+    border-radius: 3px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.edulink{
+    text-decoration: none;
+}
+
+.informationedu{
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.edu1{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.imgfootteredu{
+    text-align: right;
+}
+
+.imgedu1{
+    width: 60%;
+    border-radius: 10px; 
+}
+

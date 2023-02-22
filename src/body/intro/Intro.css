@@ -1,0 +1,80 @@
+
+.Introcontainer{
+    display:flex;
+    width: 100%;
+    height: auto;
+}
+
+.imgcontainer{
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-top: 200px;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.backgrroundintro{
+    width: 70%;
+    border-radius: 5px;
+    animation: updown 5s linear infinite;
+}
+
+@keyframes updown {
+    0%{
+        transform: translateY(-15px);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(-15px);
+    }
+}
+
+.information{
+    float: left;
+    width: 50%;
+    text-align: right;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 10%;
+}
+
+.beginintro{
+    text-align: left;
+    font-size: 60px;
+    color: rgb(254, 254, 254);
+}
+
+.beginintro1{
+    text-align:left;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(254, 254, 254);
+    margin-top: 50px;
+}
+
+.beginintro3{
+    width: auto;
+    height: auto;
+    text-align: justify;
+    font-size: 14px;
+    color: rgb(254, 254, 254);
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.connectbtn{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(0, 221, 255);
+    margin-top: 40px;
+}
